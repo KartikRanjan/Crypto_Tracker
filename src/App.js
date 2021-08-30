@@ -39,21 +39,6 @@ function App() {
           />
         </form>
       </div>
-      <div className="coin-row">
-        <div className="coin">
-
-          <h1>Name</h1>
-          <p className="coin-symbol">Symbol</p>
-        </div>
-        <div className="coin-data">
-          <p className="coin-price">Price</p>
-          <p className="coin-volume">volume</p>
-
-            <p className="coin-percent red">priceChange</p>
-
-          <p className="coin-marketcap">Mkt Cap</p>
-        </div>
-      </div>
       {filteredCoins.map((coin) => {
         return (
           <Coin
